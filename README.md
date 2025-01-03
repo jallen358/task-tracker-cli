@@ -32,5 +32,3 @@ task-cli.py list in-progress
 task-cli.py list todo
 task-cli.py list done
 ```
-
-https://roadmap.sh/projects/task-tracker
