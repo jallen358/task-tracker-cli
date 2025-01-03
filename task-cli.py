@@ -27,11 +27,12 @@ def add_task(task_name):
         "id" : next_id + 1,
         "data":{
             "description": task_name,
-            "status": '',
+            "status": 'todo',
             "createdAt": datetime.now().strftime(date_format),
             "updatedAt": datetime.now().strftime(date_format)
         }
     }
+    print(f"Task added. ID: {next_id}")
     tasks_list.append(task)
     return tasks_list
 # Updating the description of a task in the JSON
